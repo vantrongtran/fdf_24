@@ -21,3 +21,32 @@
 
 en:
   hello: "Hello world"
+  layouts:
+    header:
+      logo: "Food&Drink"
+      home: "Home"
+      gallery: "Gallery"
+      menu: "Menu"
+      login: "Login"
+      contact: "Contact"
+      slogan: "CLEAN & SIMPLE DESIGN"
+      signup: "SIGN UP"
+    footer:
+      contact: "Contact Info."
+      phone: "Phone"
+      phones: "090-123-4567"
+      address: "Address"
+      adresss: "Da Nang, Viet Nam"
+      sunday: "Sunday"
+      montofri: "Monday - Friday"
+      saturday: "Saturday"
+      sunday_time: "10:30 AM - 10:00 PM"
+      monday_time: "9:00 AM - 8:00 PM"
+      saturday_time: "11:30 AM - 10:00 PM"
+      follow_us: "Follow Us"
+      copyright: "Copyright © Food & Drink"
+      logo: "Food&Drink"
+  static_pages:
+    home:
+      food_gallery: "Food Gallery"
+      home: "Home"
