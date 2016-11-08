@@ -17,6 +17,7 @@ gem "turbolinks",              "5.0.1"
 gem "jbuilder",                "2.4.1"
 gem "bootstrap-sass",          "3.3.6"
 gem "config"
+gem "devise"
 
 group :development, :test do
   gem "sqlite3", "1.3.11"
