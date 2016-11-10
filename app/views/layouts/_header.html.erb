@@ -19,22 +19,27 @@
           <span class="glyphicon glyphicon-shopping-cart"></span>
           </a>
         </li>
-        <li><%= link_to t(".login"), "#",
-            data: {toggle: "modal", target: ".login-modal"} %>
-        </li>
+        <% if user_signed_in? %>
+          <li class="dropdown">
+            <%= link_to "#", class: "dropdown-toggle", "data-toggle": "dropdown" do %>
+              <%= current_user.name %>
+              <%= image_tag current_user.avatar, class: "avatar" %>
+              <span class="caret"></span>
+            <% end %>
+            <ul class="dropdown-menu">
+              <li class="divider"></li>
+              <li>
+                <%= link_to t(".sign_out"), destroy_user_session_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li>
+            <%= link_to t(".login"), new_user_session_path,
+              data: {toggle: "modal", target: ".modal"} %>
+          </li>
+        <% end %>
       </ul>
-    </div>
-  </div>
-</section>
-<!-- home section -->
-<section id="home" class="parallax-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <h1><%= t ".logo" %></h1>
-        <h2><%= t ".slogan" %></h2>
-        <%= link_to t(".signup"), root_path,  class: "btn btn-default" %>
-      </div>
     </div>
   </div>
 </section>

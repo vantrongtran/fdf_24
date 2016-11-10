@@ -29,8 +29,7 @@ en:
       menu: "Menu"
       login: "Login"
       contact: "Contact"
-      slogan: "CLEAN & SIMPLE DESIGN"
-      signup: "SIGN UP"
+      sign_out: "Logout"
     footer:
       contact: "Contact Info."
       phone: "Phone"
@@ -50,3 +49,6 @@ en:
     home:
       food_gallery: "Food Gallery"
       home: "Home"
+      logo: "Food&Drink"
+      slogan: "CLEAN & SIMPLE DESIGN"
+      signup: "SIGN UP"
