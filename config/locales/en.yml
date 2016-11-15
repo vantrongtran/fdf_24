@@ -30,6 +30,7 @@ en:
       login: "Login"
       contact: "Contact"
       sign_out: "Logout"
+      manager: "Manager"
     footer:
       contact: "Contact Info."
       phone: "Phone"
@@ -45,6 +46,8 @@ en:
       follow_us: "Follow Us"
       copyright: "Copyright © Food & Drink"
       logo: "Food&Drink"
+    login:
+      login: "Login"
   static_pages:
     home:
       food_gallery: "Food Gallery"

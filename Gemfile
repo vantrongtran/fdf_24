@@ -18,6 +18,7 @@ gem "jbuilder",                "2.4.1"
 gem "bootstrap-sass",          "3.3.6"
 gem "config"
 gem "devise"
+gem "cancancan"
 
 group :development, :test do
   gem "sqlite3", "1.3.11"
